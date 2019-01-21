@@ -1,0 +1,29 @@
+Information About Each Tests:
+
+Test000
+The test queries given to us by the TAs within the project description.
+Passes.
+
+Test001
+Querying the probability that a variable 'x' exists within all three tables.
+Passes, though lifted structure is suboptimal.
+
+Test002
+Querying the probability that either a variable 'x' exists within a table or
+a variable 'y' exists within another table.
+Passes now.
+
+Test003
+Querying the probability that x exists within a nonexistent table.
+In other words, SHOULD RETURN 0.
+Fails, no conversion for nonexistent table.
+
+Test004
+Another average query.
+
+Test005
+Duplicate variable within a tuple.
+Resolved
+
+Test006
+Querying with two tuples. One table exists and the other does not.
